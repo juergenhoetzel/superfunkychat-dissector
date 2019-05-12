@@ -1,0 +1,11 @@
+Port of =superfunkychat= Wireshark =Lua= dissector to =C= from the awesome book [[https://nostarch.com/networkprotocols][Attacking Network Protocols]] by [[https://github.com/tyranid][James Forshaw]].
+
+#+BEGIN_SRC bash
+To build/install the plugin:
+
+$ mkdir build && cd build
+$ cmake ..
+$ make
+$ sudo make install
+
+#+END_SRC
